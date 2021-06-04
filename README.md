@@ -1,4 +1,4 @@
-# REDChIP
+# glmerge
 Filters count files on a gene list of interest and merges them for analysis.
 
 Note: The count files must be normalized for this analysis to work.
