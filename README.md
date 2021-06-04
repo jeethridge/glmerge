@@ -1,8 +1,12 @@
 # glmerge
-Filters count files on a gene list of interest and merges them for analysis.
+Give a file containing a list of genes and either a matrix of counts or individual count files, this script does the following:
 
-Note: The count files must be normalized for this analysis to work.
+* Filters each count file such that any genes not in the supplied gene list are removed
+* Merges all the filtered count files by index such that the resulting output contains
+all counts for the specifeid gene list.
+
 The gene names (index) must always be the first column.
+
 
 Gene List File Format, e.g.
 
