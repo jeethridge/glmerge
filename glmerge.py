@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Filters count files on a gene list of interest and merges them for analysis.
 
 Note: The count files must be normalized for this analysis to work.
@@ -15,7 +16,7 @@ Gene List File Format, e.g.
 
 Example usage:
 
-    $> python redchip.py ./my_output.csv ./my_gene_list.csv ./count_files/*.csv
+    $> python glmerge.py ./my_output.csv ./my_gene_list.csv ./count_files/*.csv
 """
 
 import argparse
